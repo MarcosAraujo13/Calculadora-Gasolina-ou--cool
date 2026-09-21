@@ -1,20 +1,28 @@
 *{
 
     margin: 0 auto;
+
     font-family: sans-serif;
+    
     box-sizing: border-box;
+
 
 }
 
 body{
     
     background-color: #22272e;
+
     height: 100vh;
+
     display: flex;
+
     /* Ajusta horizontal*/
     justify-content: center;
+
     /* Ajusta vertical*/  
     align-items: center;
+
     /*Alinha em colunas, um abaixo do outro*/
     flex-direction: column;
 }
@@ -23,20 +31,28 @@ body{
 
     /*largura maxima*/
     max-width: 720px;
+    
     display: flex;
+
     /*mudou a orientação dos elementos em coluna*/
     flex-direction: column;
+
     justify-content: center;
+
     align-items: center;
+
     /*espaço interno dos intens*/
     padding: 0 14px;
+
     /*espaçamento externo ao item*/
     margin: 0 20px;
 
 }
 
 .logo{
+
     max-width: 227;
+
 }
 
 .title{
@@ -50,6 +66,7 @@ body{
 .form label{
 
     color: #fff;
+
     font-size: 20px;
 
 }
@@ -57,11 +74,17 @@ body{
 .input{
 
     width: 100%;
+
     height: 48px;
+
     border-radius: 4px;
+
     font-size: 20px;
+
     padding: 0 14px;
+
     margin-top: 8px;
+
     margin-bottom: 16px;
 
 }
@@ -69,30 +92,48 @@ body{
 .button{
 
     width: 100%;
+
     height: 48px;
+
     background-color: #119cea;
+
     /*cursor vira uma mãozinha*/
     cursor: pointer;
+
     border: 0;
+
     border-radius: 4px;
+
     color: #fff;
+
     font-size: 22px;
+
     font-weight: bold;
 }
 
 .result{
 
     background-color: #00b63e;
+
     max-width:520px;
+
     padding: 20px 28px;
+
     text-align: center;
+
     margin-top: 28px;
+
     border-radius: 4px;
+
     display: flex;
+
     flex-direction: column;
+
     border: 1px solid #696969;
+
     /*usuario não pode selecionar itens*/
     user-select: none;
+
     /*transição lenta*/
     transition: transform 0.8s;
 
@@ -114,12 +155,14 @@ body{
 .result span{
 
     color: #fff;
+
     margin-bottom: 8px;
 }
 
 #text-result{
 
     font-size: 24px;
+
     font-weight: bold;
 
 }
@@ -127,7 +170,9 @@ body{
 .info{
 
     position: fixed;
+
     right: 14px;
+
     bottom: 22px;
 }
 
@@ -141,12 +186,18 @@ body{
 .tooltip{
 
     color: #fff;
+
     background-color: #0f0f0f;
+
     padding: 10px 8px;
+
     border-radius: 6px;
+
     position: relative;
+
     bottom: 28px;
     /*vai sair do display da tela*/
+
     display: none;
 
 }
@@ -160,16 +211,22 @@ body{
 .sobre{
 
     max-width: 620px;
+
     background-color: #242424;
+
     padding: 24px 14px;
+
     border-radius: 4px;
+
     border: 1px solid #696969;
 
 }
 
 .sobre p{
      color: #fff;
+
     margin-bottom: 8px;
+
     line-height: 150%;
 
 }
@@ -177,20 +234,32 @@ body{
 .button-calcular{
 
     background-color: #119cea;
+
     /*altura / largura */
     height: 48px;
+
     width: 70%;
+
     /*alinha o texto*/
     display: flex;
+
     /*horizontal*/
     justify-content: center;
+
     /*vertical*/
     align-items: center;
+
     color: #fff;
+
     text-decoration: none;
+
     /*mexendo na fonte*/
     font-weight: bold;
+
     font-size: 22px;
+
     margin-top: 24px;
+
     border-radius: 4px;
+
 }
